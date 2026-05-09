@@ -8,7 +8,7 @@ int isCorrect(int, int); // function prototype
 
 int main(void)
 {
-   // srand( time( 0 ) ); // seed random number generator
+   printf("Modified by Kshitij for Lab 1\n");// srand( time( 0 ) ); // seed random number generator
    guessGame();
 } // end main
 
@@ -22,6 +22,7 @@ void guessGame(void)
 
    // loop until user types 2 to quit game
    do {
+
       // generate random number between 1 and 1000
       // 1 is shift, 1000 is scaling factor
       answer = 1 + rand() % 1000;
