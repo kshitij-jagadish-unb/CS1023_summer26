@@ -17,7 +17,11 @@ int main( void )
    int sum; // variable in which sum will be stored
    sum = integer1 + integer2; // assign total to sum
 
+   int minus;
+   minus =  integer1 - integer2;
+
    printf( "Sum is %d\n", sum ); // print sum
+   printf( "Difference is %d\n", minus );
 } // end function main
 
 
