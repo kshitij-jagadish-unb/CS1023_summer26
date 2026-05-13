@@ -16,6 +16,17 @@ int main(void)
       islower('!') ? "! is a " : "! is not a ",
       "lowercase letter");
 
+
+
+
+
+
+
+
+
+
+
+      
    printf("%s\n%s%s\n%s%s\n%s%s\n%s%s\n\n",
       "According to isupper:",
       isupper('D') ? "D is an " : "D is not an ",
